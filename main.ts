@@ -8,6 +8,8 @@ input.onButtonPressed(Button.A, function () {
     }
 })
 let fel = false
+led.setBrightness(50)
+music.setVolume(255)
 fel = true
 basic.showArrow(ArrowNames.North)
 basic.forever(function () {
